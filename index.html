@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://i.postimg.cc/rwjfhvrk/sumitc.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sumit chauhan | Creative Full-Stack Developer</title>x
+    <meta name="description" content="Personal portfolio of Alex Doe, a creative full-stack developer specializing in modern web applications." />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="sumit chauhan | Creative Full-Stack Developer">
+    <meta property="og:description" content="Personal portfolio of sumit chauhan, a creative full-stack developer specializing in modern web applications.">
+    <!-- <meta property="og:image" content="[URL_to_your_preview_image]"> -->
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="sumit chauhan | Creative Full-Stack Developer">
+    <meta property="twitter:description" content="Personal portfolio of sumit chauhan, a creative full-stack developer specializing in modern web applications.">
+    <!-- <meta property="twitter:image" content="[URL_to_your_preview_image]"> -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700;900&family=IBM+Plex+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['IBM Plex Mono', 'monospace'],
+              display: ['Outfit', 'sans-serif'],
+            },
+            colors: {
+              'glitch-bg': {
+                light: '#F0F0F0',
+                dark: '#0D0D0D',
+              },
+              'glitch-text': {
+                 light: '#0D0D0D',
+                 dark: '#E0E0E0',
+              },
+              'glitch-accent': '#39FF14',
+              'glitch-border': {
+                light: '#CCCCCC',
+                dark: '#333333',
+              }
+            },
+            animation: {
+              'glitch': 'glitch 0.5s linear infinite alternate-reverse',
+              'glitch-slow': 'glitch 1.5s linear infinite alternate-reverse',
+            },
+            keyframes: {
+              'glitch': {
+                '0%': { transform: 'translate(0)' },
+                '20%': { transform: 'translate(-2px, 2px)', textShadow: '2px 2px 0 #39FF14' },
+                '40%': { transform: 'translate(-2px, -2px)' },
+                '60%': { transform: 'translate(2px, 2px)', textShadow: '-2px -2px 0 #39FF14' },
+                '80%': { transform: 'translate(2px, -2px)' },
+                '100%': { transform: 'translate(0)' }
+              }
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'IBM Plex Mono', monospace;
+      }
+      .dark body {
+        background-color: #0D0D0D;
+        background-image: linear-gradient(rgba(51,51,51,0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(51,51,51,0.5) 1px, transparent 1px);
+        background-size: 2rem 2rem;
+      }
+       .light body {
+        background-color: #F0F0F0;
+        background-image: linear-gradient(rgba(204,204,204,0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(204,204,204,0.5) 1px, transparent 1px);
+        background-size: 2rem 2rem;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'Outfit', sans-serif;
+      }
+      .glitch-text {
+        color: #39FF14;
+      }
+      .glitch-border {
+        border: 1px solid #39FF14;
+        box-shadow: 0 0 5px #39FF14, inset 0 0 5px #39FF14;
+      }
+      .glitch-border-light {
+        border: 1px solid;
+        border-color: #CCCCCC;
+      }
+      .dark .glitch-border-light {
+         border-color: #333333;
+      }
+      .btn-glitch {
+        border: 1px solid #39FF14;
+        color: #39FF14;
+        background: transparent;
+        transition: background 0.2s, color 0.2s;
+      }
+      .btn-glitch:hover {
+        background: #39FF14;
+        color: #0D0D0D;
+        animation: glitch 0.3s linear infinite alternate-reverse;
+      }
+      .glitch-input {
+        background: transparent;
+        border: 1px solid #333333;
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+      }
+      .light .glitch-input {
+         border: 1px solid #CCCCCC;
+      }
+      .glitch-input:focus {
+        outline: none;
+        border-color: #39FF14;
+        box-shadow: 0 0 8px #39FF14;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.8.2",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.12"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

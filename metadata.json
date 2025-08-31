@@ -1,0 +1,5 @@
+{
+  "name": "Modern Personal Portfolio",
+  "description": "A modern, animated, and responsive personal portfolio website built with React, TypeScript, and Tailwind CSS, featuring a unique glassmorphism design and light/dark modes.",
+  "requestFramePermissions": []
+}
