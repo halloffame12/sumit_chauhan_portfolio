@@ -44,7 +44,20 @@ export const skills: Skill[] = [
 
 export const projects: Project[] = [
   {
-    id: 'project-1',
+  id: 'project-1',
+  slug: 'anonchat-live',
+  title: 'AnonChat Live – Anonymous Real-Time Chat Platform',
+  category: 'Web Development',
+  imageUrl: 'https://i.postimg.cc/HWyk9mDZ/anonchatweb.png',
+  description: 'AnonChat Live is a production-ready anonymous real-time chat platform designed for instant, private communication without any registration.',
+  problem: 'Most chat platforms require sign-ups, track user data, or introduce delays that reduce real-time interaction quality.',
+  solution: 'Implemented a low-latency WebSocket architecture using Node.js, Express, and Socket.IO. Built a fast React (Vite) + Tailwind UI with anonymous identities, random matchmaking, and public rooms with live participant tracking.',
+  role: 'Full-Stack Developer',
+  techStack: ['Node.js', 'Express', 'Socket.IO', 'React (Vite)', 'Tailwind CSS'],
+  repoUrl: 'https://anonchatweb.netlify.app/'
+  },
+  {
+    id: 'project-2',
     slug: 'real-time-chat-app',
     title: 'Real-Time Chat Application',
     category: 'Web Development',
@@ -57,7 +70,7 @@ export const projects: Project[] = [
     repoUrl: 'https://nexuschatweb.netlify.app/',
   },
   {
-    id: 'project-2',
+    id: 'project-3',
     slug: 'Techsavvy-Personal-Blog',
     title: 'AI-Powered-Blog',
     category: 'Full-Stack',
@@ -70,7 +83,7 @@ export const projects: Project[] = [
     repoUrl: 'https://techsavvy-insights-personal-blog.netlify.app/#/',
   },
   {
-    id: 'project-3',
+    id: 'project-4',
     slug: 'CodeCraftGames',
     title: 'Ai Powered Game Dev',
     category: 'AI/Computer Vision',
@@ -83,7 +96,7 @@ export const projects: Project[] = [
     repoUrl: 'https://codecraftgames.netlify.app/',
   },
   {
-    id: 'project-4',
+    id: 'project-5',
     slug: 'flysyk-tour',
     title: 'FlySyk Tour Website',
     category: 'Web Development',
