@@ -40,20 +40,19 @@ export const skills: Skill[] = [
   { name: 'Java', level: 70, category: 'Programming', icon: NodeIcon },
 ];
 
-
 export const projects: Project[] = [
   {
-  id: 'project-1',
-  slug: 'anonchat-live',
-  title: 'AnonChat Live – Anonymous Real-Time Chat Platform',
-  category: 'Web Development',
-  imageUrl: 'https://i.postimg.cc/HWyk9mDZ/anonchatweb.png',
-  description: 'AnonChat Live is a production-ready anonymous real-time chat platform designed for instant, private communication without any registration.',
-  problem: 'Most chat platforms require sign-ups, track user data, or introduce delays that reduce real-time interaction quality.',
-  solution: 'Implemented a low-latency WebSocket architecture using Node.js, Express, and Socket.IO. Built a fast React (Vite) + Tailwind UI with anonymous identities, random matchmaking, and public rooms with live participant tracking.',
-  role: 'Full-Stack Developer',
-  techStack: ['Node.js', 'Express', 'Socket.IO', 'React (Vite)', 'Tailwind CSS'],
-  repoUrl: 'https://anonchatweb.netlify.app/'
+    id: 'project-1',
+    slug: 'anonchat-live',
+    title: 'AnonChat Live – Anonymous Real-Time Chat Platform',
+    category: 'Web Development',
+    imageUrl: 'https://i.postimg.cc/HWyk9mDZ/anonchatweb.png',
+    description: 'AnonChat Live is a production-ready anonymous real-time chat platform designed for instant, private communication without any registration.',
+    problem: 'Most chat platforms require sign-ups, track user data, or introduce delays that reduce real-time interaction quality.',
+    solution: 'Implemented a low-latency WebSocket architecture using Node.js, Express, and Socket.IO. Built a fast React (Vite) + Tailwind UI with anonymous identities, random matchmaking, and public rooms with live participant tracking.',
+    role: 'Full-Stack Developer',
+    techStack: ['Node.js', 'Express', 'Socket.IO', 'React (Vite)', 'Tailwind CSS'],
+    repoUrl: 'https://anonchatweb.netlify.app/'
   },
   {
     id: 'project-2',
@@ -65,7 +64,7 @@ export const projects: Project[] = [
     problem: 'Most chat apps lacked customizable admin controls and lightweight real-time communication features for web users.',
     solution: 'Built using Flask, Socket.IO, and MySQL with a responsive UI (Bootstrap + Tailwind). Added global/private chat, typing indicators, dark mode, and an admin panel.',
     role: 'Full-Stack Developer',
-    techStack: ['Node.js', 'MySQL', 'Socket.IO', 'Tailwind', 'React', 'JavaScript'],
+    techStack: ['Flask', 'Socket.IO', 'MySQL', 'Bootstrap', 'Tailwind CSS', 'React', 'JavaScript'],
     repoUrl: 'https://nexuschatweb.netlify.app/',
   },
   {
@@ -105,16 +104,16 @@ export const projects: Project[] = [
     solution: 'Created using HTML, CSS, JS, and Bootstrap with dynamic booking sections and responsive layouts.',
     role: 'Frontend Developer',
     techStack: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
-    repoUrl: '#',
+    repoUrl: '', // Add GitHub link or demo URL when available
   },
 ];
 
 export const timeline: TimelineEvent[] = [
   {
-  date: '2025 - Present',
-  title: 'BS in Computer Science',
-  institution: 'IIT Patna',
-  description: 'Pursuing a degree in Computer Science with a strong focus on full-stack development, AI/ML, and building innovative real-world projects.,
+    date: '2025 - Present',
+    title: 'BS in Computer Science',
+    institution: 'IIT Patna',
+    description: 'Pursuing a degree in Computer Science with a strong focus on full-stack development, AI/ML, and building innovative real-world projects.',
   },
   {
     date: 'Dec 2024 - Jan 2025',
