@@ -4,12 +4,11 @@ import { ReactIcon, NodeIcon, PythonIcon, FigmaIcon } from '../assets/icons';
 export const personalInfo = {
   name: "Sumit Chauhan",
   title: "Full-Stack Developer | AI/ML Enthusiast",
-  bio: `I am a passionate Full-Stack Developer and AI/ML student currently pursuing B.Tech in AI & ML at IITM Group of Institutions (Batch 2028). With expertise in modern web technologies, backend systems, and real-time applications, I specialize in building scalable, user-friendly, and feature-rich projects. 
-  I enjoy solving complex problems, exploring new technologies, and creating innovative projects such as AI chatbots, real-time chat apps, gesture recognition systems, and interactive web platforms. 
-  My goal is to reach a god-level of coding within 3 years and contribute to cutting-edge innovations in AI, space, and software engineering. 
-  Outside of coding, I love exploring science, reading books, and working on creative ideas.`,
+  bio: `I am a passionate Full-Stack Developer and AI/ML student currently pursuing a BS in Computer Science from IIT Patna. I focus on modern web technologies, backend systems, and real-time applications, building scalable, user-friendly, and feature-rich projects.
+  I enjoy solving complex problems, experimenting with emerging technologies, and creating innovative systems such as AI chatbots, real-time chat applications, gesture-recognition projects, and interactive web platforms. My goal is to achieve elite-level coding skills within the next three years and contribute to breakthroughs in AI, space technology, and software engineering.
+  Outside of coding, I love exploring science, reading impactful books, and developing creative ideas that push my knowledge forward.`,
   profilePicture: "https://i.postimg.cc/rwjfhvrk/sumitc.png",
-  resumeUrl: "https://drive.google.com/file/d/1TuqBQbDXsSVXci6nRxGRdp-sGLGwAuJq/view?usp=sharing", // Replace with your resume link
+  resumeUrl: "https://drive.google.com/file/d/12xk1uw6MQJVp7S0rQkaB_ab5NPd0G-c0/view?usp=sharing", // Replace with your resume link
 };
 
 export const skills: Skill[] = [
@@ -112,10 +111,10 @@ export const projects: Project[] = [
 
 export const timeline: TimelineEvent[] = [
   {
-    date: '2025 - Present',
-    title: 'B.Tech in AI & ML',
-    institution: 'IITM Group of Institutions, Murthal',
-    description: 'Pursuing a degree in Artificial Intelligence and Machine Learning with a strong focus on coding, research, and real-world applications.',
+  date: '2025 - Present',
+  title: 'BS in Computer Science',
+  institution: 'IIT Patna',
+  description: 'Pursuing a degree in Computer Science with a strong focus on full-stack development, AI/ML, and building innovative real-world projects.,
   },
   {
     date: 'Dec 2024 - Jan 2025',
@@ -160,10 +159,10 @@ export const achievements: Achievement[] = [
     imageUrl: 'https://picsum.photos/seed/cothon/400/250',
   },
   {
-    title: 'Full-Stack Developer Certification',
-    issuer: 'Intellus Design',
-    date: '2024',
-    imageUrl: 'https://picsum.photos/seed/fullstack/400/250',
+    title: 'NASA International Space Apps Challenge – Certificate of Participation',
+    issuer: 'Innogeeks',
+    date: '2025',
+    imageUrl: 'https://i.postimg.cc/fy0sBSwy/certificate-cecdf.png',
   },
   {
     title: 'Data Analyst Certification',
